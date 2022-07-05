@@ -4,10 +4,10 @@ namespace _05_Alunos.Entidades;
 
 public class Aluno
 {
-    public string Nome { get; private set; }
-    public double NotaUm { get; private set; }
-    public double NotaDois { get; private set; }
-    public double NotaTres { get; private set; }
+    private string Nome { get; set; }
+    private double NotaUm { get; set; }
+    private double NotaDois { get; set; }
+    private double NotaTres { get; set; }
 
     public Aluno(string nome, double notaUm, double notaDois, double notaTres)
     {
@@ -17,9 +17,9 @@ public class Aluno
         NotaTres = notaTres;
     }
 
-    public double NotaFinal() => NotaUm + NotaDois + NotaTres;
+    private double NotaFinal() => NotaUm + NotaDois + NotaTres;
 
-    public string SituacaoAluno()
+    private string SituacaoAluno()
     {
         string mensagem = NotaFinal() >= 60.0
             ? "PASS"
