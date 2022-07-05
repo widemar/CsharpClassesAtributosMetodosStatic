@@ -1,4 +1,4 @@
-namespace _02_SalarioMedio.entidades;
+namespace _02_SalarioMedio.Entidades;
 
 public class Funcionario
 {

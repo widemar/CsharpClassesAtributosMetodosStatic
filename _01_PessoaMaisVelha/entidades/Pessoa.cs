@@ -1,4 +1,4 @@
-namespace _01_PessoaMaisVelha.entidades;
+namespace _01_PessoaMaisVelha.Entidades;
 
 public class Pessoa
 {

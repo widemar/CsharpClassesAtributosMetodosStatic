@@ -1,4 +1,4 @@
-﻿using _01_PessoaMaisVelha.entidades;
+﻿using _01_PessoaMaisVelha.Entidades;
 
 Console.WriteLine("Dados da primeira pessoa: ");
 Console.Write("Nome: ");

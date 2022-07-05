@@ -1,5 +1,5 @@
 ﻿using System.Globalization;
-using _02_SalarioMedio.entidades;
+using _02_SalarioMedio.Entidades;
 
 CultureInfo info = CultureInfo.InvariantCulture;
 
